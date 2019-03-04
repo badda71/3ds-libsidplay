@@ -7,8 +7,8 @@ url="https://github.com/badda71/3ds-libsidplay"
 license=('GPLv2')
 options=(!strip libtool staticlibs)
 source=(
-	"${url}/raw/master/libsidplay-${pkgver}.tar.gz"
-	"${url}/raw/master/libsidplay-${pkgver}.patch"
+	"libsidplay-${pkgver}.tar.gz"
+	"libsidplay-${pkgver}.patch"
 )
 makedepends=('3ds-pkg-config' 'devkitpro-pkgbuild-helpers' 'patch')
 groups=('3ds-portlibs')
