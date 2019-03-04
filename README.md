@@ -1,5 +1,5 @@
 # 3ds-libsidplay
-port of libsidplay 1.36.59-9 by Michael Schwendt and others to Nintendo 3DS
+port of libsidplay 1.36.60 by Michael Schwendt and others to Nintendo 3DS
 
 ## Installation
 In devkitARM install via pacman
