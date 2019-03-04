@@ -2,10 +2,7 @@
 port of libsidplay 1.36.60 by Michael Schwendt and others to Nintendo 3DS
 
 ## Installation
-In devkitARM install via pacman
-```
-pacman -S 3ds-libsidplay
-```
+Download the release archive and extract to ```/opt/devkitpro/portlibs/3ds```
 
 ## Compiling
 You need devkitARM and pkg-config & devkitpro-pkgbuild-helpers to compile (pacman -Sy pkg-config devkitpro-pkgbuild-helpers).
