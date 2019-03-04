@@ -18,3 +18,14 @@
  {
  //  0x81,0x99,0xaa,0xbb,0xcc,0xdd,0xee,0xff,
  //  0x00,0x11,0x22,0x33,0x44,0x55,0x66,0x7f
+--- scripts/config.sub	Fri Aug 20 12:49:08 2010
++++ scripts/config.sub	Mon Mar 04 21:48:01 2019
+@@ -1293,7 +1293,7 @@
+ 	      | -ptx* | -coff* | -ecoff* | -winnt* | -domain* | -vsta* \
+ 	      | -udi* | -eabi* | -lites* | -ieee* | -go32* | -aux* \
+ 	      | -chorusos* | -chorusrdb* | -cegcc* \
+-	      | -cygwin* | -pe* | -psos* | -moss* | -proelf* | -rtems* \
++	      | -cygwin* | -msys* | -pe* | -psos* | -moss* | -proelf* | -rtems* \
+ 	      | -mingw32* | -linux-gnu* | -linux-newlib* | -linux-uclibc* \
+ 	      | -uxpv* | -beos* | -mpeix* | -udk* \
+ 	      | -interix* | -uwin* | -mks* | -rhapsody* | -darwin* | -opened* \
