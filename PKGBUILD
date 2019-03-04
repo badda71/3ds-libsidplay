@@ -10,6 +10,8 @@ source=(
 	"libsidplay-${pkgver}.tar.gz"
 	"libsidplay-${pkgver}.patch"
 )
+sha256sums=('f7988157a59ca82e64e26f548c95ca9762ceed1c1cfcc109399f04fe74363308'
+            '86ecafa790c90cd9433d7ec0483408c01c8504d3f8c95417266cc01731bc6cec')
 makedepends=('3ds-pkg-config' 'devkitpro-pkgbuild-helpers' 'patch')
 groups=('3ds-portlibs')
 
